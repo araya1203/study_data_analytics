@@ -1,12 +1,11 @@
-<details>
-<summary>묘사 데이터 분석(DDA, Descriptive Data Analysis)</summary>
+
+## 묘사 데이터 분석(DDA, Descriptive Data Analysis)
 데이터 기본정보 파악 : 데이터 구조 및 특성 확인
 분석 계획 수립 : 분석 목적. 과제 정의, 목표 변수 및 설명변수 정의
 데이터 전처리 : 결측치, 이상치 등 처리
-</details>
 
-<details>
-<summary>RecurrenceOfSurgery_Doctors_DDA</summary>
+
+## RecurrenceOfSurgery_Doctors_DDA
 
 - 분석 제공 대상: 의사
 - 목표 변수 : '수술시간'
@@ -19,4 +18,3 @@
 | 과거수술횟수 | 환자의 과거 수술 횟수              | 수치형-이산형 (0,1,2)        |  정수 데이터값을 가지는 데이터   | 
 | 수술기법     | 사용된 수술 기법                  | 범주형-명목형 (TELD) | 분류를 목적으로 하는 데이터  | 
 |수술시간 | 환자의 수술 시간 | 수치형-이산형| 	정수 데이터값을 가지는 데이터     | 
-</details>
