@@ -48,8 +48,7 @@ from dataset : https://blog.naver.com/data_station/222493245799
 
 </details>
 
-# 📈 Data analytics
-- 데이터 분석을 위한 기본 개념 익히기 위한 공간
+# Data analytics
 
 ## 
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"/> <img
@@ -64,26 +63,43 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 ##  시각화(visuallizations)
 - 데이터 시각화는 데이터 분석 결과를 시각적으로 명확하게 표현하고 의사소통 하는 것
 
+<details >
+<summary> 사용한 파이썬 데이터 시각화 라이브러리 </summary>
+- pandas : 데이터 분석과 데이터 조작을 위한 파이썬 라이브러리
+- matplotlib : 파이썬의 데이터 시각화 및 그래프 작성 라이브러리
+  matplotlib.pyplot: Matplotlib의 서브 모듈, 서브 모듈은 Matplotlib를 사용하여 그래프를 생성하고 다양한 그래픽 요소를 조작하는 데 유용한 함수와 기능을 제공 
+- seaborn : 파이썬의 데이터 시각화 라이브러리 중 하나이고 Matplotlib에 기반하며, 데이터 시각화를 보다 쉽고 아름답게 수행할 수 있도록 도와주는 고수준 인터페이스를 제공
+</details>
+
 | 제목 | 작성소스 | 설명 |  비고|
 |---|---|---|---|
-| 기본 시각화 | [simples](./codes/visuallizations/simples.ipynb) | matplotlib.pyplot| 
-| scatterplot | [classfications_scatter](./codes/visuallizations/classfications_scatter.ipynb) | scatterplot의 기본 정보 | 
+| 기본 시각화 | [simples](./codes/visuallizations/simples.ipynb) | matplotlib.pyplot Scatter Plot | 
+| scatterplot | [classfications_scatter](./codes/visuallizations/classfications_scatter.ipynb) | scatterplot 두 클래스 변수를 한 plot에 표현 (title, label, legend), plot(데이터 포인트를 선으로 연결)| 
 | UsingCharts | [UsingCharts](./codes/visuallizations/UsingChart_TypeOfContractChannel.ipynb) | 목표변수와 설명변수의 관계를 시각화 | 
 
 
 ## Pandas
-- 파이썬의 데이터 분석 라이브러리
+- 데이터 분석과 데이터 조작을 위한 파이썬 라이브러리
+
+<details >
+<summary> pandas 라이브러리에서 DataFrame 또는 Series 객체의 정보 확인하는 메서드 </summary>
+- .info() : 기본 정보를 표시하는 메서드, 데이터프레임의 크기, 열(컬럼)의 데이터 유형, 결측치 유무 및 메모리 사용량과 같은 정보를 요약
+- .describe() : 통계적 요약 정보를 표시하는 메서드, 주요 통계량, 평균, 중위수, 표준 편차, 최솟값, 최댓값 등을 요약하여 제공
+- .describe(include='object') : 통계적 요약 정보를 문자열(문자형) 데이터 열(컬럼)에 대해서만 표시하는 메서드
+  count: 비어 있지 않은 값의 개수, unique: 고유한 값의 개수, top: 가장 자주 나타나는 값, freq: 가장 자주 나타나는 값의 빈도를 보여줌. 
+- .value_counts() : 고유한 값의 빈도를 계산하여 반환하는 메서드, 범주형 데이터의 빈도를 계산하거나, 어떤 열(컬럼)의 고유한 값이 어떻게 분포하는지를 이해하는 데 사용
+- .index.to_list() : Pandas Series나 DataFrame의 인덱스(Index)를 Python 리스트로 변환하는 작업을 수행하는 코드
+</details>
 
 | 제목 | 작성소스 | 설명 |  비고|
 |---|---|---|---|
-| basic_1 | [basic_1](./codes/pandass/BreastCancerWiscon.ipynb) | 데이터 기본정보 확인하기 |
-| basic_2 | [basic_2](./codes/pandass/TitanicFromDisaster.ipynb) | 데이터 기본정보 확인하기 |
+| 데이터 정보 확인_1 | [데이터 정보 확인_1](./codes/pandass/BreastCancerWiscon.ipynb) | .info(), .describe(), .describe(include=object) |
+| 데이터 정보 확인_2 | [데이터 정보 확인_2](./codes/pandass/TitanicFromDisaster.ipynb) |.shape  |
 | TimeSeries | [TimeSeries](./codes/pandass/DeliveryList_TimeSeries.ipynb) | 날짜형 데이터 다루기| 
 | RecurrenceOfSurgery | [RecurrenceOfSurgery](./codes/pandass/RecurrenceOfSurgery_Timeseries_with.ipynb) |주차별/요일별 입원/퇴원 추이 시각화| 시각화 종류 파악|
 | apply | [apply](./codes/pandass/ResurrenceOfSurgery_apply_quest.ipynb) |체중,신장의 데이터를 활용하여 BMI 시각화| apply() 사용|
 | preprocess | [preprocess](./codes/pandass/preprocess.ipynb) |전처리를 통해 결측치, 이상치 제거|
 | merge | [merge](./codes/pandass/merge.ipynb) | 데이터를 조인하여 병합하는 법|
-| read_excel | [read_excel](./codes/pandass/read_excel.ipynb) | excel를 로드하는 법과 sheet를 불러와서 병합|
 
 
 ## Sellenium
@@ -91,7 +107,7 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
   
 | 제목 | 작성소스 | 설명 |
 |---|---|---|
-| 기본 정보 | [begginers](./codes/gatheringdatas/seleriums/begginers.ipynb) | 웹페이지 창 닫고 열기, screenshot| |
+| 기본 정보 | [begginers](./codes/gatheringdatas/seleniums/begginers.ipynb) | 웹페이지 창 닫고 열기, screenshot| |
 | find| [find](./codes/gatheringdatas/seleriums/emartmalls_find.ipynb) | find, bundle lish  with for문 | find_elements_by_css_selector|
 | Login| [Login](./codes/gatheringdatas/seleriums/github_events_except.ipynb) | 로그인 기능 구현  | |
 | pagination| [pagination](./codes/gatheringdatas/seleriums/emartmalls_find_pagination.ipynb) | pagination 구현  | |
