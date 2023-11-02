@@ -51,7 +51,7 @@ from dataset : https://blog.naver.com/data_station/222493245799
 # 📈 Data analytics
 - 데이터 분석을 위한 기본 개념 익히기 위한 공간
 
-## ☑ 사용기술
+## 
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"/> <img
 src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"/> <img
 src="https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white"/> <img
@@ -61,33 +61,32 @@ src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=for-the-badge&
 src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"/> <img 
 src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=Google Cloud&logoColor=white"/>
 
-## 💻 시각화(visuallizations)
+##  시각화(visuallizations)
 - 데이터 시각화는 데이터 분석 결과를 시각적으로 명확하게 표현하고 의사소통 하는 것
 
 | 제목 | 작성소스 | 설명 |  비고|
 |---|---|---|---|
 | 기본 시각화 | [simples](./codes/visuallizations/simples.ipynb) | matplotlib.pyplot| 
 | scatterplot | [classfications_scatter](./codes/visuallizations/classfications_scatter.ipynb) | scatterplot의 기본 정보 | 
-| UsingCharts | [UsingCharts](./codes/visuallizations/UsingCharts_TypeOfContractChannel.ipynb) | 목표변수와 설명변수의 관계를 시각화 | 
-| Lank | [UsingCharts_lank](./codes/visuallizations/UsingCharts_TypeOfContractChannel_quests.ipynb) | 상위권 부분만 확인하기 | 
+| UsingCharts | [UsingCharts](./codes/visuallizations/UsingChart_TypeOfContractChannel.ipynb) | 목표변수와 설명변수의 관계를 시각화 | 
 
 
-## 💻 Pandas
+## Pandas
 - 파이썬의 데이터 분석 라이브러리
 
 | 제목 | 작성소스 | 설명 |  비고|
 |---|---|---|---|
-| basic_1 | [basic_1](./codes/pandass/BreastCancerWisconsin.ipynb) | 데이터 기본정보 확인하기 |
-| basic_2 | [basic_2](./codes/pandass/TitanicFromDisater.ipynb) | 데이터 기본정보 확인하기 |
+| basic_1 | [basic_1](./codes/pandass/BreastCancerWiscon.ipynb) | 데이터 기본정보 확인하기 |
+| basic_2 | [basic_2](./codes/pandass/TitanicFromDisaster.ipynb) | 데이터 기본정보 확인하기 |
 | TimeSeries | [TimeSeries](./codes/pandass/DeliveryList_TimeSeries.ipynb) | 날짜형 데이터 다루기| 
-| RecurrenceOfSurgery | [RecurrenceOfSurgery](./codes/pandass/RecurrenceOfSurgery.ipynb) |주차별/요일별 입원/퇴원 추이 시각화| 시각화 종류 파악|
-| apply | [apply](./codes/pandass/RecurrenceOfSurgery_apply_quest.ipynb) |체중,신장의 데이터를 활용하여 BMI 시각화| apply() 사용|
+| RecurrenceOfSurgery | [RecurrenceOfSurgery](./codes/pandass/RecurrenceOfSurgery_Timeseries_with.ipynb) |주차별/요일별 입원/퇴원 추이 시각화| 시각화 종류 파악|
+| apply | [apply](./codes/pandass/ResurrenceOfSurgery_apply_quest.ipynb) |체중,신장의 데이터를 활용하여 BMI 시각화| apply() 사용|
 | preprocess | [preprocess](./codes/pandass/preprocess.ipynb) |전처리를 통해 결측치, 이상치 제거|
 | merge | [merge](./codes/pandass/merge.ipynb) | 데이터를 조인하여 병합하는 법|
 | read_excel | [read_excel](./codes/pandass/read_excel.ipynb) | excel를 로드하는 법과 sheet를 불러와서 병합|
 
 
-## 💻 셀레니움(Sellenium)
+## Sellenium
 - 웹 브라우저를 이용하는 자동화 프로그램인 'Selenium'을 이용하여 크롤링 하기
   
 | 제목 | 작성소스 | 설명 |
@@ -103,7 +102,7 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 | 스크롤링| [pagedown_스크롤링](./codes/gatheringdatas/seleriums/begginers_ready.ipynb) | 마우스 스크롤 기능 구현 | while문을 이용 |
 
 
-## 💻 정규표현식 (Regex) 
+## 정규표현식 (Regex) 
 - 정규 표현식(regular expression)은 문자열에서 특정한 규칙을 가지는 문자열의 집합을 찾아내기 위한 검색 패턴
 - ref : https://regexr.com/
   
@@ -114,7 +113,7 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 | Regex_in_pandass | [Regex_in_pandass](./codes/pandass/TitanicFromDisaster_regexp_quest.py) | Regex in pandass | |
 
 
-## 💻 자연어 처리(NLP)
+## 자연어 처리(NLP)
 - NLP(Natural Language Processing, 자연어 처리)는 인공지능의 한 분야로서 머신러닝을 사용하여 텍스트와 데이터를 처리하고 해석
 - 자연어의 의미를 분석하여 컴퓨터가 처리할 수 있도록 하는 일
   
@@ -132,7 +131,7 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 | duplicates_file | [duplicates_file](./codes/NLP/duplicates_file.ipynb) | 중복 처리 |
 | drop_duplicates | [drop_duplicates](./codes/NLP/drop_duplicates.ipynb) | 중복 처리 |
 
-## 💻 감성분석
+## 감성분석
 - 감성 분석(Sentiment Analysis)이란 텍스트에 들어있는 의견이나 감성, 평가, 태도 등의 주관적인 정보를 컴퓨터를 통해 분석하는 과정
   
 | 제목 | 작성소스 | 설명 | 
@@ -142,7 +141,7 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 | LDA_gensim | [LDA_gensim](./codes/NLP/LDA_gensim.ipynb) | gensim 이용하여 LDA | 
 | LDA_sklearn | [LDA_sklearn](./codes/NLP/LDA_sklearn.ipynb) | sklearn 이용하여 LDA | 
 
-## 💻 MongoDB
+## MongoDB
 - 오픈소스 비관계형 데이터베이스 관리 시스템(DMBS)
   
 | 제목 | 작성소스 | 설명 | 
@@ -154,7 +153,7 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 | updates | [updates](./codes/gatheringdatas/mongodb/updates.py) | python으로 mongoDB update  | |
 | updatewithpandas | [updatewithpandas](./codes/gatheringdatas/mongodb/updatewithpandas.ipynb) | update with pandas  | |
 
-## 💻 MySQL
+## MySQL
 - 오픈소스 관계형 데이터베이스 관리 시스템(RDBMS)
   
 | 제목 | 작성소스 | 설명 | 
@@ -163,7 +162,7 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 
 
 
-## 📋 QUEST 
+## QUEST 
 <details >
 <summary> QUEST 진행 사항</summary>
 
@@ -178,11 +177,11 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 ### 자연어 처리 QUEST 
 | 제목 | 작성소스 | 설명 | 
 |---|---|---|
-| mecab_quest | [mecab_quest](./codes/NLP/mecab_quest.ipynb) | 불용어 처리 | |
+| mecab_quest | [mecab_quest](./codes/NLP/) | 불용어 처리 | |
 
 ### 감성분석 QUEST 
 | 제목 | 작성소스 | 설명 | 
 |---|---|---|
-| navermovierating | [navermovierating](./codes/NLP/navermovierating_mechinelearning_quest.ipynb) |  머신러닝 이용 감성 분석, 타 사이트 댓글 이용 성능 확인| 
+| navermovierating | [navermovierating](./codes/NLP/navermovierating_mechinelearning.ipynb) |  머신러닝 이용 감성 분석, 타 사이트 댓글 이용 성능 확인| 
 
 </details>
