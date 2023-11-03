@@ -102,12 +102,12 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 - .unique(): Series 객체에서 고유한 값을 확인하고 주로 범주형 데이터의 고유한 값 목록을 가져올 때 사용함.
 
 #### TimeSeries
--.to_datetime() : 날짜와 시간 정보를 포함하는 데이터를 Pandas의 datetime 객체로 변환하는 데 사용함. 
--.dt.year: datetime 열에서 연도(Year)를 추출
--.dt.month: datetime 열에서 월(Month)을 추출
--.dt.day: datetime 열에서 일(Day)을 추출
--.dt.hour: datetime 열에서 시간(Hour)을 추출
--.dt.weekday: datetime 열에서 요일(Weekday)을 추출 (0은 월요일, 6은 일요일)
+- .to_datetime() : 날짜와 시간 정보를 포함하는 데이터를 Pandas의 datetime 객체로 변환하는 데 사용함. 
+- .dt.year: datetime 열에서 연도(Year)를 추출
+- .dt.month: datetime 열에서 월(Month)을 추출
+- .dt.day: datetime 열에서 일(Day)을 추출
+- .dt.hour: datetime 열에서 시간(Hour)을 추출
+- .dt.weekday: datetime 열에서 요일(Weekday)을 추출 (0은 월요일, 6은 일요일)
 
 #### 데이터 형(type) 변환
 - .astype(str) : DataFrame 또는 Series의 데이터 유형을 문자열(string)로 변환하는 데 사용
