@@ -83,21 +83,45 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 
 <details >
 <summary> pandas 라이브러리에서 DataFrame 또는 Series 객체의 정보 확인하는 메서드 </summary>
-- .info() : 기본 정보를 표시하는 메서드, 데이터프레임의 크기, 열(컬럼)의 데이터 유형, 결측치 유무 및 메모리 사용량과 같은 정보를 요약
-- .describe() : 통계적 요약 정보를 표시하는 메서드, 주요 통계량, 평균, 중위수, 표준 편차, 최솟값, 최댓값 등을 요약하여 제공
+
+[데이터 정보 확인]
+- .head() :  DataFrame 또는 Series의 처음 몇 개의 행을 확인함, .head(n) 형식으로 호출하여 원하는 행의 수를 지정
+- .tail() :  DataFrame 또는 Series의 마지막 몇 개의 행을 확인함, .tail(n) 형식으로 호출하여 원하는 행의 수를 지정
+- .info() : 기본 정보를 표시하는 메서드, 데이터프레임의 크기, 열(컬럼)의 데이터 유형, 결측치 유무 및 메모리 사용량과 같은 정보를 요약함.
+- .describe() : 통계적 요약 정보를 표시하는 메서드, 주요 통계량, 평균, 중위수, 표준 편차, 최솟값, 최댓값 등을 요약하여 제공함.
 - .describe(include='object') : 통계적 요약 정보를 문자열(문자형) 데이터 열(컬럼)에 대해서만 표시하는 메서드
-  count: 비어 있지 않은 값의 개수, unique: 고유한 값의 개수, top: 가장 자주 나타나는 값, freq: 가장 자주 나타나는 값의 빈도를 보여줌. 
-- .value_counts() : 고유한 값의 빈도를 계산하여 반환하는 메서드, 범주형 데이터의 빈도를 계산하거나, 어떤 열(컬럼)의 고유한 값이 어떻게 분포하는지를 이해하는 데 사용
-- .index.to_list() : Pandas Series나 DataFrame의 인덱스(Index)를 Python 리스트로 변환하는 작업을 수행하는 코드
-</details>
+          count: 비어 있지 않은 값의 개수
+          unique: 고유한 값의 개수
+          top: 가장 자주 나타나는 값
+          freq: 가장 자주 나타나는 값의 빈도를 보여줌.
+- .value_counts() : 고유한 값의 빈도를 계산하여 반환하는 메서드, 범주형 데이터의 빈도를 계산하거나, 어떤 열(컬럼)의 고유한 값이 어떻게 분포하는지를 이해하는 데 사용함.
+- .shape :  DataFrame의 행 및 열 수를 확인하고 (행 수, 열 수)의 형식으로 반환함. 2차원 데이터 구조
+- .columns : DataFrame의 열 이름을 확인하하고 열 이름을 리스트로 반환함.
+- .index: DataFrame의 행 인덱스를 확인하고 행 인덱스 정보를 반환함.
+- .unique(): Series 객체에서 고유한 값을 확인하고 주로 범주형 데이터의 고유한 값 목록을 가져올 때 사용함.
+
+[TimeSeries]
+-.to_datetime() : 날짜와 시간 정보를 포함하는 데이터를 Pandas의 datetime 객체로 변환하는 데 사용함. 
+-.dt.year: datetime 열에서 연도(Year)를 추출
+-.dt.month: datetime 열에서 월(Month)을 추출
+-.dt.day: datetime 열에서 일(Day)을 추출
+-.dt.hour: datetime 열에서 시간(Hour)을 추출
+-.dt.weekday: datetime 열에서 요일(Weekday)을 추출 (0은 월요일, 6은 일요일)
+
+[데이터 형(type) 변환]
+- .astype(str) : DataFrame 또는 Series의 데이터 유형을 문자열(string)로 변환하는 데 사용
+
+[연산(Operation)]
+- .apply() : 함수를 적용하여 DataFrame 또는 Series의 각 요소에 대해 연산을 수행하는 데 사용
+
 
 | 제목 | 작성소스 | 설명 |  비고|
 |---|---|---|---|
-| 데이터 정보 확인_1 | [데이터 정보 확인_1](./codes/pandass/BreastCancerWiscon.ipynb) | .info(), .describe(), .describe(include=object) |
-| 데이터 정보 확인_2 | [데이터 정보 확인_2](./codes/pandass/TitanicFromDisaster.ipynb) |.shape  |
-| TimeSeries | [TimeSeries](./codes/pandass/DeliveryList_TimeSeries.ipynb) | 날짜형 데이터 다루기| 
-| RecurrenceOfSurgery | [RecurrenceOfSurgery](./codes/pandass/RecurrenceOfSurgery_Timeseries_with.ipynb) |주차별/요일별 입원/퇴원 추이 시각화| 시각화 종류 파악|
-| apply | [apply](./codes/pandass/ResurrenceOfSurgery_apply_quest.ipynb) |체중,신장의 데이터를 활용하여 BMI 시각화| apply() 사용|
+| 데이터 정보 확인_1 | [데이터 정보 확인_1](./codes/pandass/BreastCancerWiscon.ipynb) | DataFrame 형태 확인, 기본 정보, 통계정 요약 정보 (수치형, 문자형))  |.shape, .info(), .describe(), .describe(include=object) |
+| 데이터 정보 확인_2 | [데이터 정보 확인_2](./codes/pandass/TitanicFromDisaster.ipynb) | 행 확인 , 고유한 값 확인 | .head(n),.tail(),.unique() |
+| TimeSeries | [TimeSeries](./codes/pandass/DeliveryList_TimeSeries.ipynb) | 날짜와 시간 데이터 다루기|.to_datetime() |
+| RecurrenceOfSurgery | [RecurrenceOfSurgery](./codes/pandass/RecurrenceOfSurgery_Timeseries_with.ipynb) |주차별/요일별 입원/퇴원 추이 시각화| 데이터타입, 시각화 종류 파악|
+| apply | [apply](./codes/pandass/ResurrenceOfSurgery_apply_quest.ipynb) |체중,신장의 데이터를 활용하여 BMI 시각화| .apply()|
 | preprocess | [preprocess](./codes/pandass/preprocess.ipynb) |전처리를 통해 결측치, 이상치 제거|
 | merge | [merge](./codes/pandass/merge.ipynb) | 데이터를 조인하여 병합하는 법|
 
