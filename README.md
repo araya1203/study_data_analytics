@@ -84,8 +84,8 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 
 <details >
 <summary> pandas 라이브러리에서 DataFrame 또는 Series 객체의 정보 확인하는 메서드 </summary>
-<br>
-[데이터 정보 확인]
+
+#### 데이터 정보 확인
 - .head() :  DataFrame 또는 Series의 처음 몇 개의 행을 확인함, .head(n) 형식으로 호출하여 원하는 행의 수를 지정
 - .tail() :  DataFrame 또는 Series의 마지막 몇 개의 행을 확인함, .tail(n) 형식으로 호출하여 원하는 행의 수를 지정
 - .info() : 기본 정보를 표시하는 메서드, 데이터프레임의 크기, 열(컬럼)의 데이터 유형, 결측치 유무 및 메모리 사용량과 같은 정보를 요약함.
@@ -100,19 +100,19 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 - .columns : DataFrame의 열 이름을 확인하하고 열 이름을 리스트로 반환함.
 - .index: DataFrame의 행 인덱스를 확인하고 행 인덱스 정보를 반환함.
 - .unique(): Series 객체에서 고유한 값을 확인하고 주로 범주형 데이터의 고유한 값 목록을 가져올 때 사용함.
-<br>
-[TimeSeries]
+
+#### TimeSeries
 -.to_datetime() : 날짜와 시간 정보를 포함하는 데이터를 Pandas의 datetime 객체로 변환하는 데 사용함. 
 -.dt.year: datetime 열에서 연도(Year)를 추출
 -.dt.month: datetime 열에서 월(Month)을 추출
 -.dt.day: datetime 열에서 일(Day)을 추출
 -.dt.hour: datetime 열에서 시간(Hour)을 추출
 -.dt.weekday: datetime 열에서 요일(Weekday)을 추출 (0은 월요일, 6은 일요일)
-<br>
-[데이터 형(type) 변환]
+
+#### 데이터 형(type) 변환
 - .astype(str) : DataFrame 또는 Series의 데이터 유형을 문자열(string)로 변환하는 데 사용
-<br>
-[연산(Operation)]
+
+#### 연산(Operation)
 - .apply() : 함수를 적용하여 DataFrame 또는 Series의 각 요소에 대해 연산을 수행하는 데 사용
 </details>
 
