@@ -201,6 +201,7 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 | connect_mysql | [connect_mysql](./codes/gatheringdatas/mysql/selectswithpandas.py) | pandas를 이용해서 mysql연결| |
 
 
+
 ## QUEST 
 <details >
 <summary> QUEST 진행 사항</summary>
