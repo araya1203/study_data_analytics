@@ -208,17 +208,10 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 <summary> QUEST 진행 사항</summary>
 
 
-### 셀레니움(Sellenium) QUEST 
-| 제목 | 작성소스 | 설명 | 
-|---|---|---|
-| books_quest | [books_quest](./codes/gatheringdatas/seleriums/books_quest.ipynb) | 도서목록 제목만 스크래핑, csv로 저장  | |
-| login_quest | [login_quest](./codes/gatheringdatas/seleriums/naver_login_quest.ipynb) | naver.com login, login 후 메일로 이동| |
-| 스크롤랑 | [koreanz_xyz_quest](./codes/gatheringdatas/seleriums/koreanz_xyz_quest.ipynb) | 특정 페이지 1page ~ 10page까지 정보 수집| |
-
 ### 자연어 처리 QUEST 
 | 제목 | 작성소스 | 설명 | 
 |---|---|---|
-| mecab_quest | [mecab_quest](./codes/NLP/) | 불용어 처리 | |
+| mecab_quest | [mecab_quest](./codes/NLP/healthapp_review_LDA.ipynb) | 불용어 처리 | |
 
 ### 감성분석 QUEST 
 | 제목 | 작성소스 | 설명 | 
