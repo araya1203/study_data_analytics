@@ -49,7 +49,6 @@ from dataset : https://blog.naver.com/data_station/222493245799
 
 </details>
 
-# Data analytics
 
 ## 📚 STACKS
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"/> <img
