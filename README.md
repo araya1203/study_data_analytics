@@ -61,7 +61,8 @@ src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=for-the-badge&
 src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"/> <img 
 src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=Google Cloud&logoColor=white"/>
 
-##  시각화(visuallizations)
+
+## ✔️  시각화(visuallizations)
 - 데이터 시각화는 데이터 분석 결과를 시각적으로 명확하게 표현하고 의사소통 하는 것
 
 <details >
@@ -80,7 +81,7 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 | UsingCharts | [UsingCharts](./codes/visuallizations/UsingChart_TypeOfContractChannel.ipynb) | 목표변수와 설명변수의 관계를 시각화 | 
 
 
-## Pandas
+## ✔️ Pandas
 - 데이터 분석과 데이터 조작을 위한 파이썬 라이브러리
 
 <details >
@@ -128,7 +129,7 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 | merge | [merge](./codes/pandass/merge.ipynb) | 데이터를 조인하여 병합하는 법|
 
 
-## Sellenium
+## ✔️ Sellenium
 - 웹 브라우저를 이용하는 자동화 프로그램인 'Selenium'을 이용하여 크롤링 하기
   
 | 제목 | 작성소스 | 설명 |
@@ -144,7 +145,7 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 | 스크롤링| [pagedown_스크롤링](./codes/gatheringdatas/seleniums/begginers_ready.ipynb) | 마우스 스크롤 기능 구현 | while문을 이용 |
 
 
-## 정규표현식 (Regex) 
+## ✔️ 정규표현식 (Regex) 
 - 정규 표현식(regular expression)은 문자열에서 특정한 규칙을 가지는 문자열의 집합을 찾아내기 위한 검색 패턴
 - ref : https://regexr.com/
   
@@ -155,7 +156,7 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 | Regex_in_pandass | [Regex_in_pandass](./codes/pandass/TitanicFromDisaster_regexp_quest.py) | Regex in pandass | |
 
 
-## 자연어 처리(NLP)
+## ✔️ 자연어 처리(NLP)
 - NLP(Natural Language Processing, 자연어 처리)는 인공지능의 한 분야로서 머신러닝을 사용하여 텍스트와 데이터를 처리하고 해석
 - 자연어의 의미를 분석하여 컴퓨터가 처리할 수 있도록 하는 일
   
@@ -172,7 +173,7 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 | healthapp_LDA | [healthapp_LDA](./codes/NLP/healthapp_review_LDA.ipynb) | LDA |
 
 
-## 감성분석
+## ✔️ 감성분석
 - 감성 분석(Sentiment Analysis)이란 텍스트에 들어있는 의견이나 감성, 평가, 태도 등의 주관적인 정보를 컴퓨터를 통해 분석하는 과정
   
 | 제목 | 작성소스 | 설명 | 
@@ -182,7 +183,7 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 | LDA_gensim | [LDA_gensim](./codes/NLP/LDA_gensim.ipynb) | gensim 이용하여 LDA | 
 | LDA_sklearn | [LDA_sklearn](./codes/NLP/LDA_sklearn.ipynb) | sklearn 이용하여 LDA | 
 
-## MongoDB
+## ✔️ MongoDB
 - 오픈소스 비관계형 데이터베이스 관리 시스템(DMBS)
   
 | 제목 | 작성소스 | 설명 | 
@@ -193,7 +194,7 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 | updates | [updates](./codes/gatheringdatas/mongodb/updates.py) | python으로 mongoDB update  | |
 | updatewithpandas | [updatewithpandas](./codes/gatheringdatas/mongodb/updatewithpandas.ipynb) | update with pandas  | |
 
-## MySQL
+## ✔️ MySQL
 - 오픈소스 관계형 데이터베이스 관리 시스템(RDBMS)
   
 | 제목 | 작성소스 | 설명 | 
