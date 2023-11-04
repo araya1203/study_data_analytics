@@ -1,5 +1,6 @@
 <details >
-<summary>Titanic From Disater_타이타닉 참사</summary>
+<summary>Titanic From Disater_타이타닉 참사 DDA</summary>
+from dataset : https://www.kaggle.com/competitions/titanic/data
 
 ### DDA 분석
 | Variable | Definition | Key | 분석가 의견 |
@@ -21,7 +22,7 @@
 
 
 <details >
-<summary>Type Of Contract Channel_계약 유형 채널</summary>
+<summary>Type Of Contract Channel_계약 유형 채널 DDA</summary>
 from dataset : https://blog.naver.com/data_station/222493245799
 
 ### DDA 분석
@@ -50,7 +51,7 @@ from dataset : https://blog.naver.com/data_station/222493245799
 
 # Data analytics
 
-## 
+## 📚 STACKS
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"/> <img
 src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"/> <img
 src="https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white"/> <img
@@ -118,8 +119,8 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 
 | 제목 | 작성소스 | 설명 |  비고|
 |---|---|---|---|
-| 데이터 정보 확인_1 | [데이터 정보 확인_1](./codes/pandass/BreastCancerWiscon.ipynb) | DataFrame 형태 확인, 기본 정보, 통계정 요약 정보 (수치형, 문자형))  |.shape, .info(), .describe(), .describe(include=object) |
-| 데이터 정보 확인_2 | [데이터 정보 확인_2](./codes/pandass/TitanicFromDisaster.ipynb) | 행 확인 , 고유한 값 확인 | .head(n),.tail(),.unique() |
+| 데이터 정보 확인_1 | [데이터 정보 확인_1](./codes/pandass/BreastCancerWiscon.ipynb) | DataFrame 형태 확인, 기본 정보, 통계정 요약 정보 (수치형, 문자형))  |.shape .info() .describe() .describe(include=object) |
+| 데이터 정보 확인_2 | [데이터 정보 확인_2](./codes/pandass/TitanicFromDisaster.ipynb) | 행 확인 , 고유한 값 확인 | .head(n) .tail().unique() |
 | TimeSeries | [TimeSeries](./codes/pandass/DeliveryList_TimeSeries.ipynb) | 날짜와 시간 데이터 다루기|.to_datetime() |
 | RecurrenceOfSurgery | [RecurrenceOfSurgery](./codes/pandass/RecurrenceOfSurgery_Timeseries_with.ipynb) |주차별/요일별 입원/퇴원 추이 시각화| 데이터타입, 시각화 종류 파악|
 | apply | [apply](./codes/pandass/ResurrenceOfSurgery_apply_quest.ipynb) |체중,신장의 데이터를 활용하여 BMI 시각화| .apply()|
@@ -133,14 +134,14 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 | 제목 | 작성소스 | 설명 |
 |---|---|---|
 | 기본 정보 | [begginers](./codes/gatheringdatas/seleniums/begginers.ipynb) | 웹페이지 창 닫고 열기, screenshot| |
-| find| [find](./codes/gatheringdatas/seleriums/emartmalls_find.ipynb) | find, bundle lish  with for문 | find_elements_by_css_selector|
-| Login| [Login](./codes/gatheringdatas/seleriums/github_events_except.ipynb) | 로그인 기능 구현  | |
+| find| [find](./codes/gatheringdatas/seleniums/emartmalls_find.ipynb) | find, bundle lish  with for문 | find_elements_by_css_selector|
+| Login| [Login](./codes/gatheringdatas/seleniums/github_events_except.ipynb) | 로그인 기능 구현  | |
 | pagination| [pagination](./codes/gatheringdatas/seleriums/emartmalls_find_pagination.ipynb) | pagination 구현  | |
-| 앱 리뷰(single) | [googlestore_healthcare](./codes/gatheringdatas/seleriums/googlestore_healthcare_single.ipynb) | single  | |
-| 앱 리뷰(loops) | [loops](./codes/gatheringdatas/seleriums/googlestore_healthcare_loops.ipynb) | loops  | |
+| 앱 리뷰(single) | [googlestore_healthcare](./codes/gatheringdatas/seleniums/googlestore_heathcare_single.ipynb) | single  | |
+| 앱 리뷰(loops) | [loops](./codes/gatheringdatas/seleniums/googlestore_heathcare_loops.ipynb) | loops  | |
 | 앱 리뷰 스크롤링| [loops_complete](./codes/gatheringdatas/seleriums/googlestore_healthcare_loops_complete.ipynb) | loops with for 문 | 각 제품(앱)에 들어가서 리뷰를 스크롤링 |
-| pagedown| [pagedown](./codes/gatheringdatas/seleriums/begginers_pagedown.ipynb) | 마우스 스크롤 pagedown 기능 구현 |  |
-| 스크롤링| [pagedown_스크롤링](./codes/gatheringdatas/seleriums/begginers_ready.ipynb) | 마우스 스크롤 기능 구현 | while문을 이용 |
+| pagedown| [pagedown](./codes/gatheringdatas/seleniums/begginers_pagedown.ipynb) | 마우스 스크롤 pagedown 기능 구현 |  |
+| 스크롤링| [pagedown_스크롤링](./codes/gatheringdatas/seleniums/begginers_ready.ipynb.ipynb) | 마우스 스크롤 기능 구현 | while문을 이용 |
 
 
 ## 정규표현식 (Regex) 
@@ -149,7 +150,7 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
   
 | 제목 | 작성소스 | 설명 | 
 |---|---|---|
-| Regex | [Regex](./codes/pandass/beginners.ipynb) | 정규표현식 예시 | |
+| Regex | [Regex](./codes/pandass/begginners.ipynb) | 정규표현식 예시 | |
 | Regex_pandass | [Regex_pandass](./codes/pandass/begginners.py) | 정규표현식을 pandas에서 사용 방법 | |
 | Regex_in_pandass | [Regex_in_pandass](./codes/pandass/TitanicFromDisaster_regexp_quest.py) | Regex in pandass | |
 
@@ -161,16 +162,15 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 | 제목 | 작성소스 | 설명 | 
 |---|---|---|
 | wordcloud | [wordcloud](./codes/NLP/wordcloud_simple.ipynb) | 기본 자연어 처리 | | 
-| wordcloud_regexp | [wordcloud_regexp](./codes/NLP/wordcloud_simple_regexp.ipynb) |Regex을 이용하여 글자 전처리 | | 
-| wordcloud_regexp | [wordcloud_regexp](./codes/NLP/wordcloud_simple_regexp.ipynb) |Regex을 이용하여 글자 전처리 | | 
+| wordcloud_regexp | [wordcloud_regexp](./codes/NLP/wordcloud_regexp.ipynb) |Regex을 이용하여 글자 전처리 | | 
+| wordcloud_regexp | [wordcloud_regexp](./codes/NLP/wordcloud_regexp.ipynb) |Regex을 이용하여 글자 전처리 | | 
 | 한글 형태소 분석기 | [morpheme_analyzer](./codes/NLP/morpheme_analyzer.ipynb) |한글 형태소 분석기 Okt | |
 | withmecab | [withmecab](./codes/NLP/wordcloudwithmecab.ipynb) | withmecab | |
 | tokenizers | [tokenizers](./codes/NLP/tokenizers.ipynb) | 불용어 처리 | 
-| bestTopicnumber | [bestTopicnumber](./codes/NLP/LDA_gensim_bestTopicnumber.ipynb) | 최적의 토픽 단어 수 | 
-| healthapp_PreProcess | [healthapp_PreProcess](./codes/NLP/healthapp_review_PreProcess.ipynb) | 전처리|
+| bestTopicnumber | [bestTopicnumber](./codes/NLP/LDA_gensim_bestTopicnumb.ipynb) | 최적의 토픽 단어 수 | 
+| healthapp_PreProcess | [healthapp_PreProcess](./codes/NLP/healthapp_review_preprocess.ipynb) | 전처리|
 | healthapp_LDA | [healthapp_LDA](./codes/NLP/healthapp_review_LDA.ipynb) | LDA |
-| duplicates_file | [duplicates_file](./codes/NLP/duplicates_file.ipynb) | 중복 처리 |
-| drop_duplicates | [drop_duplicates](./codes/NLP/drop_duplicates.ipynb) | 중복 처리 |
+
 
 ## 감성분석
 - 감성 분석(Sentiment Analysis)이란 텍스트에 들어있는 의견이나 감성, 평가, 태도 등의 주관적인 정보를 컴퓨터를 통해 분석하는 과정
@@ -178,7 +178,7 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 | 제목 | 작성소스 | 설명 | 
 |---|---|---|
 | sentiment_analyze_dictionary | [sentiment_analyze_dictionary](./codes/NLP/sentiment_analyze_dictionary.ipynb) | 감성 사전에 의한 감성 분석 | 
-| sentiment_analyze_mechinelearing | [sentiment_analyze_mechinelearing](./codes/NLP/sentiment_analyze_mechinelearing.ipynb) | 머신러닝에 의한 감성 분석 | 
+| sentiment_analyze_mechinelearing | [sentiment_analyze_mechinelearing](./codes/NLP/sentiment_analyze_mechinelearning.ipynb) | 머신러닝에 의한 감성 분석 | 
 | LDA_gensim | [LDA_gensim](./codes/NLP/LDA_gensim.ipynb) | gensim 이용하여 LDA | 
 | LDA_sklearn | [LDA_sklearn](./codes/NLP/LDA_sklearn.ipynb) | sklearn 이용하여 LDA | 
 
@@ -187,7 +187,7 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
   
 | 제목 | 작성소스 | 설명 | 
 |---|---|---|
-| commend | [commend](./codes/gatheringdatas/mongodb/commend.txt) | mongoDB의 명령어 정리 | |
+| commend | [commend](./codes/gatheringdatas/mongodb/command.txt) | mongoDB의 명령어 정리 | |
 | connect_mongoDB| [connect_mongoDB](./codes/gatheringdatas/mongodb/NSC2_D20.ipynb) | mongoDB 연결 | |
 | find| [findwithpandas](./codes/gatheringdatas/mongodb/findwithpandas.ipynb) | find with pandas | |
 | insertMany |[insertManywithpandas](./codes/gatheringdatas/mongodb/insertManywithpandas.ipynb) | insertManywithpandas | |
