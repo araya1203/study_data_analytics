@@ -188,7 +188,6 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 | 제목 | 작성소스 | 설명 | 
 |---|---|---|
 | commend | [commend](./codes/gatheringdatas/mongodb/command.txt) | mongoDB의 명령어 정리 | |
-| connect_mongoDB| [connect_mongoDB](./codes/gatheringdatas/mongodb/NSC2_D20.ipynb) | mongoDB 연결 | |
 | find| [findwithpandas](./codes/gatheringdatas/mongodb/findwithpandas.ipynb) | find with pandas | |
 | insertMany |[insertManywithpandas](./codes/gatheringdatas/mongodb/insertManywithpandas.ipynb) | insertManywithpandas | |
 | updates | [updates](./codes/gatheringdatas/mongodb/updates.py) | python으로 mongoDB update  | |
