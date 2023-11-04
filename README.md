@@ -136,12 +136,12 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 | 기본 정보 | [begginers](./codes/gatheringdatas/seleniums/begginers.ipynb) | 웹페이지 창 닫고 열기, screenshot| |
 | find| [find](./codes/gatheringdatas/seleniums/emartmalls_find.ipynb) | find, bundle lish  with for문 | find_elements_by_css_selector|
 | Login| [Login](./codes/gatheringdatas/seleniums/github_events_except.ipynb) | 로그인 기능 구현  | |
-| pagination| [pagination](./codes/gatheringdatas/seleriums/emartmalls_find_pagination.ipynb) | pagination 구현  | |
+| pagination| [pagination](./codes/gatheringdatas/seleniums/emartmalls_paginations.ipynb) | pagination 구현  | |
 | 앱 리뷰(single) | [googlestore_healthcare](./codes/gatheringdatas/seleniums/googlestore_heathcare_single.ipynb) | single  | |
 | 앱 리뷰(loops) | [loops](./codes/gatheringdatas/seleniums/googlestore_heathcare_loops.ipynb) | loops  | |
-| 앱 리뷰 스크롤링| [loops_complete](./codes/gatheringdatas/seleriums/googlestore_healthcare_loops_complete.ipynb) | loops with for 문 | 각 제품(앱)에 들어가서 리뷰를 스크롤링 |
+| 앱 리뷰 스크롤링| [loops_complete](./codes/gatheringdatas/seleniums/googlestore_heathcare_loops_complete.ipynb) | loops with for 문 | 각 제품(앱)에 들어가서 리뷰를 스크롤링 |
 | pagedown| [pagedown](./codes/gatheringdatas/seleniums/begginers_pagedown.ipynb) | 마우스 스크롤 pagedown 기능 구현 |  |
-| 스크롤링| [pagedown_스크롤링](./codes/gatheringdatas/seleniums/begginers_ready.ipynb.ipynb) | 마우스 스크롤 기능 구현 | while문을 이용 |
+| 스크롤링| [pagedown_스크롤링](./codes/gatheringdatas/seleniums/begginers_ready.ipynb) | 마우스 스크롤 기능 구현 | while문을 이용 |
 
 
 ## 정규표현식 (Regex) 
